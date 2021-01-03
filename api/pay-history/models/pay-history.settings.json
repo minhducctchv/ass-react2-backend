@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pay_histories",
+  "info": {
+    "name": "payHistory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "user": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "items": {
+      "type": "json"
+    }
+  }
+}
